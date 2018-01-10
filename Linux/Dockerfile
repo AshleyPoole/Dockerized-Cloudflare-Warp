@@ -5,6 +5,9 @@ RUN tar xzf *.tgz
 
 FROM debian
 
+LABEL maintainer="git@ashleypoole.co.uk"
+LABEL description="This is a Debian based Linux image containing Cloudflare Warp"
+
 RUN mkdir /cloudflare-warp
 RUN mkdir /cloudflare-warp/tunnels
 
