@@ -1,0 +1,1 @@
+docker build -t "ashleypoole/cloudflare-warp:latest" -f Linux/Dockerfile Linux/.
