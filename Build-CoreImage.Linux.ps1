@@ -1,1 +1,1 @@
-docker build -t "ashleypoole/cloudflare-warp:latest" -f Linux/Dockerfile Linux/.
+docker build -t "ashleypoole/cloudflareargotunnel:latest" -f Linux/Dockerfile Linux/.

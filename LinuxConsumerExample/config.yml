@@ -1,3 +1,0 @@
-hostname: hostname.example.com 
-url: http://hostname.internal.example.net
-orgincert: tunnels/cert.pem

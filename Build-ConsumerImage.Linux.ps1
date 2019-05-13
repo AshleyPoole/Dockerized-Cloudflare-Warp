@@ -3,4 +3,4 @@ param(
 	[string]$FriendlyDomainName
 )
 
-docker build -t "cloudflare-warp:${FriendlyDomainName}" -f LinuxConsumerExample/Dockerfile LinuxConsumerExample/.
+docker build -t "cloudflareagrotunnel:${FriendlyDomainName}" -f LinuxConsumerExample/Dockerfile LinuxConsumerExample/.
