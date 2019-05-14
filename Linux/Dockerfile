@@ -5,8 +5,6 @@ LABEL description="This is a Debian based Linux image containing Cloudflare Argo
 
 WORKDIR /cloudflare
 
-ENV TUNNEL_ORIGIN_CERT="/cloudflare/cert.pem"
-
 ADD https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-amd64.tgz .
 RUN tar xzf *.tgz
 
