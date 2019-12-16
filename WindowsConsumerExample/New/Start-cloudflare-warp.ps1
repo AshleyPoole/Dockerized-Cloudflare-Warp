@@ -1,0 +1,1 @@
+/cloudflare-warp --hostname $TunnelExternalDomain $TunnelInternalUrl

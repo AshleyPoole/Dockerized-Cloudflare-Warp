@@ -1,0 +1,3 @@
+hostname: $TunnelExternalHostName
+url: $TunnelInternalUrl
+orgincert: tunnels/cloudflare-warp.pem

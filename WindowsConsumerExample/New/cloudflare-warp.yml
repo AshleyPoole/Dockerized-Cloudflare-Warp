@@ -1,0 +1,2 @@
+hostname: $TunnelExternalHostName
+url: $TunnelInternalUrl
